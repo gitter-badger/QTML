@@ -1,5 +1,5 @@
 # gui部分
-from PyQt5.QtWidgets import QMainWindow, QTabWidget, QWidget, QPushButton, QApplication, QAction, QMenuBar, QSizePolicy, QVBoxLayout, QHBoxLayout, QTextBrowser, QLabel, QMessageBox, QGraphicsOpacityEffect
+from PyQt5.QtWidgets import QMainWindow, QTabWidget, QWidget, QPushButton, QApplication, QListWidget, QAction, QMenuBar, QSizePolicy, QVBoxLayout, QHBoxLayout, QTextBrowser, QLabel, QMessageBox, QGraphicsOpacityEffect
 from PyQt5.QtGui import QIcon, QCloseEvent, QPaintEvent, QPainter, QPixmap, QColor, QBrush, QPainterPath, QFont, QResizeEvent
 from PyQt5.QtCore import pyqtSignal, QThread, Qt, QRectF, QSize
 from PyQt5.QtWebEngineWidgets import QWebEngineView
@@ -41,7 +41,10 @@ class DownloadWidget(QWidget):
     """下载组件"""
     def __init__(self, parent: QWidget = None):
         QWidget.__init__(self, parent)
-        self.layout
+        self.__layout = QHBoxLayout(self)
+        self.list = QListWidget(self)
+        self.setLayout(self.__layout)
+        
 
 class MainWindow(QMainWindow):
     """主窗口"""

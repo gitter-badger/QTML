@@ -1,6 +1,11 @@
 # QTML - 免费的我的世界启动器
 
-## 中文版本
+
+## 帮助我们更好的发展
+
+1. 可以去我们的Github存储库做出贡献 (就在这里)
+2. 去爱发电赞助我们 [传送门](https://afdian.net/@chenmy1903)
+3. 提出bug (在issues上)[https://github.com/chenmy1903/QTML/issues]
 
 ### 更新了什么?
 

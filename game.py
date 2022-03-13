@@ -82,7 +82,7 @@ version_name: [名称]安装的Minecraft的名称, 以及启动时调用的jar�
             self.install_fabric()
         else:
             mclib.install.install_minecraft_version(
-                self.version, 
+                self.version,
                 get_mc_floor(),
                 version_name=self.version_name, 
                 callback=self.callback

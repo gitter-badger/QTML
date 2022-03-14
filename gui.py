@@ -20,7 +20,7 @@ BUTTON_HEIGHT = 30  # 按钮高度
 BUTTON_WIDTH = 30  # 按钮宽度
 TITLE_HEIGHT = 30  # 标题栏高度
 
-__version__ = "1.0"
+__version__ = "1.1"
 
 info = """<h1>重要信息</h1>
 <pre>
@@ -29,6 +29,9 @@ info = """<h1>重要信息</h1>
 </pre>
 <h1>更新日志</h1>
 <pre>
+<h5>1.1</h5>
+1. 更新毛玻璃
+2. UI完善, 有程序入口点
 <h5>1.0</h5>
 1. 之前的版本因为做的太烂, 所以删了
 2. 更换源, 不再是龟速下载 (指之前的一个小时下载一个游戏版本)
@@ -44,7 +47,7 @@ class DownloadWidget(QWidget):
         self.__layout = QHBoxLayout(self)
         self.list = QListWidget(self)
         self.setLayout(self.__layout)
-        
+
 
 class MainWindow(QMainWindow):
     """主窗口"""

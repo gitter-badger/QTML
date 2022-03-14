@@ -5,7 +5,7 @@
 
 1. 可以去我们的Github存储库做出贡献 (就在这里)
 2. 去爱发电赞助我们 [传送门](https://afdian.net/@chenmy1903)
-3. 提出bug (在issues上)[https://github.com/chenmy1903/QTML/issues]
+3. 提出bug [在issues上](https://github.com/chenmy1903/QTML/issues)
 
 ### 更新了什么?
 
@@ -13,7 +13,8 @@
 
 1. 更快的下载速度 (请支持[bangbang93](https://afdian.net/@bangbang93)来让他继续为我们提供下载服务)
 2. 解除收费内容 (改为自愿支持[鸭皇](https://afdian.net/@chenmy1903), 请支持他, 他是这个项目的作者)
-3. 对我的世界基岩版的支持
+<!-- 3. 对我的世界基岩版的支持 -->
+3. 毛玻璃效果
 
 ## 我们修复了[Minecraft-Launcher-Lib](https://minecraft-launcher-lib.readthedocs.io/)的bug
 

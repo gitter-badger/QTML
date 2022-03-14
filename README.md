@@ -1,5 +1,7 @@
 # QTML - 免费的我的世界启动器
 
+[![Join the chat at https://gitter.im/chenmy1903/qtml](https://badges.gitter.im/chenmy1903/qtml.svg)](https://gitter.im/chenmy1903/qtml?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+
 
 ## 帮助我们更好的发展
 
